@@ -1,3 +1,6 @@
+
+/* nav related contend */
+
 .nav-container-main {
     display: flex;
     margin-left: 400px;
@@ -6,6 +9,7 @@
 
 .nav-container {
     display: flex;
+
 }
 
 .menu-icon{
@@ -262,6 +266,7 @@ margin-top: 100px;
 margin-left: 400px;
 
 
+
   }
   .input{
     display: flex;
@@ -280,14 +285,79 @@ background: rgba(19, 19, 24, 0.05);
     color: #FFF;
      margin-left: 400px;
     background-color: #FF5400;
-    padding: 30px;
-    font-size: 43px;
+    padding: 0px;
+    font-size: 50px;  
+    border-radius: 1500px;
   
   }
   .input.image.img {
     margin-left: 1500px;
     margin-right: px;
   }
+
+
+
+
+
+
+
+/*footer related contend*/
+
+
+
+.nav-container-1{
+    background: #f0edec;
+    border: radius 500px 400px;
+
+   
+}
+ 
+.nav-container-text-2 {
+    color: #FF5400;
+    font-size: 66px;
+    font-weight: 700;
+}
+
+
+    .nav-container-2{
+        
+        margin-left:1300px ;
+        margin-right: auto;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        color: #131318;
+        font-size: 66px;
+        font-weight: 700;
+    
+    }
+    .pragraf{ 
+        
+    text-align: center;
+    
+    }
+    
+    .social-links{
+        align-items: center;
+    
+    }
+    .nav-container-3{
+margin-left: 1350px;
+
+
+    }
+
+
+.footer-colum-3{
+    margin-left: 1370px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
 
 
 
