@@ -259,7 +259,17 @@ background: rgba(41, 206, 246, 0.05);
   }
 
 
-  /* input-type related */ 
+  /* input-type related */
+  
+  .main-input-type{
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    margin-right: 350px;
+    
+  }
 
   .input-type {
 margin-top: 100px; 
@@ -282,17 +292,19 @@ background: rgba(19, 19, 24, 0.05);
   }
   .input-1{
     padding-left: 200px;
-    color: #FFF;
      margin-left: 400px;
     background-color: #FF5400;
-    padding: 0px;
+    padding: 22px;
+    color: #f0edec;
+    text-align: center;
     font-size: 50px;  
-    border-radius: 1500px;
+    border-radius: 10px;
   
   }
-  .input.image.img {
-    margin-left: 1500px;
-    margin-right: px;
+  .input-type-4{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
   }
 
 
@@ -308,8 +320,6 @@ background: rgba(19, 19, 24, 0.05);
 .nav-container-1{
     background: #f0edec;
     border: radius 500px 400px;
-
-   
 }
  
 .nav-container-text-2 {
@@ -332,25 +342,24 @@ background: rgba(19, 19, 24, 0.05);
     
     }
     .pragraf{ 
-        
     text-align: center;
-    
     }
     
-    .social-links{
+    .nav-container-3{
         align-items: center;
-    
+        margin-bottom: 25px;
     }
+
     .nav-container-3{
 margin-left: 1350px;
-
-
     }
 
-
 .footer-colum-3{
-    margin-left: 1370px;
+    border-top: 2px solid gray;
+   text-align: center;
     padding-top: 50px;
+    margin-left: 700px;
+    margin-right: 700px;
 }
 
 
@@ -533,6 +542,135 @@ margin-left: 1350px;
                 border: 1px solid rgba(233, 68, 68, 0.20);
                 background: rgba(233, 68, 68, 0.05);
               }
+
+
+              .main-input-type{
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                justify-content: space-between;
+                margin-right: 0px;
+                
+              }
+            
+              .input-type {
+            margin-top: 100px; 
+            margin-left: 5px;
+            
+            
+            
+              }
+              .input{
+                flex-direction: column;
+                display: flex;
+                border-radius: 10px;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px;
+                padding-left: 5px;
+                font-size: 10px;
+                border-radius: 8px;
+            background: rgba(19, 19, 24, 0.05);
+
+             
+              }
+
+
+              .input.image{
+                height: 30px;
+                width: 20px;
+                display: flex;
+
+              }
+
+
+
+              .input-1{
+                padding-left: 20px;
+                 margin-left: 5px;
+                background-color: #FF5400;
+                padding: 5px;
+                color: #f0edec;
+                text-align: center;
+                font-size: 10px;  
+                border-radius: 10px;
+              
+              }
+              .input-type-4{
+                display: flex;
+                flex-direction: column;
+                gap: 33px;
+              }
+            
+            
+
+
+
+
+
+
+              .nav-container-1{
+                background: #f0edec;
+                border: radius 50px 40px;
+            }
+             
+            .nav-container-text-2 {
+                color: #FF5400;
+                font-size: 50px;
+                font-weight: 70;
+            }
+            
+            
+                .nav-container-2{
+                    
+                    margin-left:0px ;
+                
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    color: #131318;
+                    font-size: 50px;
+                    font-weight: 70;
+                
+                }
+                .pragraf{ 
+                text-align: center;
+                }
+                
+                .nav-container-3{
+                    align-items: center;
+                    margin-bottom: 25px;
+                }
+            
+                .nav-container-3{
+            margin-left: 5px;
+                }
+            
+            .footer-colum-3{
+                border-top: 2px solid gray;
+               text-align: center;
+                padding-top: 50px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
