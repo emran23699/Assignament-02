@@ -1,51 +1,53 @@
-
-
-/* navbar style related */
-
-.nav-container-main{
+.nav-container-main {
     display: flex;
     margin-left: 400px;
     margin-bottom: 50px;
 }
 
-.nav-container{ 
-    display:flex;
+.nav-container {
+    display: flex;
+}
+
+.menu-icon{
+display: none;
 }
 
 .nav-container img {
-margin-bottom: 50px ;
-width: 50px;
-height: 200px;
-} 
+    margin-bottom: 50px;
+    width: 50px;
+    height: 200px;
+}
 
-.nav-container p{
+.nav-container p {
     color: #131318;
     font-size: 66px;
     font-weight: 700;
 
 }
-.nav-container-text{
+
+.nav-container-text {
     color: #FF5400;
     font-size: 66px;
     font-weight: 700;
 
 }
-.items-container{
+
+.items-container {
 
     display: flex;
     text-align: center;
     gap: 115px;
     padding: 90px;
     margin-left: 550px;
-    font-size:40px
-
+    font-size: 40px
 }
-.home-cooler{
+
+.home-cooler {
     color: #FF5400;
 
 }
 
-.items-container a{
+.items-container a {
     text-decoration: none;
 
 }
@@ -53,26 +55,26 @@ height: 200px;
 
 /* primary cooler related */
 
-     .primary-cooler{
-      background-color: #FF5400;
-     text-align: center;
-     padding: 20px;
-     border-radius: 8px;
-     border: none;
-     font-size: 20px;
-     color: #FFF;
+.primary-cooler {
+    background-color: #FF5400;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: #FFF;
 }
 
 
-/* river brige related */ 
+/* river brige related */
 
 
-.river-and-button{
+.river-and-button {
     text-align: center;
     background-image: url(Rectangle\ 5.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height:  50vh;
+    height: 50vh;
     width: 2100px;
     border-radius: 15px;
     margin-left: 400px;
@@ -81,63 +83,61 @@ height: 200px;
 
 }
 
-.river-brige{
+.river-brige {
     color: #FFF;
 
-font-family: Mulish;
-font-size: 54px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-
-}
-.button-text{
-display: inline-flex;
-padding: 20px;
-align-items: flex-start;
-gap: 28px;
-border-radius: 20px;
-background: rgba(255, 255, 255, 0.30);
-font-weight: 400;
+    font-family: Mulish;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
 }
 
-.booking{
+.button-text {
+    display: inline-flex;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 28px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.30);
+    font-weight: 400;
+
+}
+
+.booking {
     border: none;
     padding: 15px;
     border-radius: 8px;
     font-size: 20px;
 }
 
-.river-brige{
+.river-brige {
     text-align: cente;
 
 }
 
-    
+
 
 
 
 
 /* Hill and img related */
-.hiil-and-title{
-      margin-top: 150px ;
-      display: flex;
-      gap: 1000px;
-      margin-left: 400px;
-      margin-right: 350px;
+.hiil-and-title {
+    margin-top: 150px;
+    display: flex;
+    gap: 10px;
+    margin-left: 400px;
+    margin-right: 350px;
 
 }
 
-.hill-img{
+.hill-img {
     border-radius: 16px;
-    width: 1700px;
-    
-   
-
+    width: full;
 }
 
-.hill-title{
+.hill-title {
 
     font-size: 26px;
 }
@@ -148,42 +148,44 @@ font-weight: 400;
 
 
 /* Destination related */
-.deste{
+.deste {
     font-size: 110px;
 
 }
 
-.your-destination{
+.your-destination {
     text-align: center;
     padding-top: 50px;
-    font-size:40px ;
+    font-size: 40px;
 }
-.row{
+
+.row {
     display: flex;
-    width:400px;
+    width: 400px;
     margin-right: 650px;
     margin-left: 400px;
     height: 430px;
     gap: 20px;
     margin-bottom: 20px;
 }
-.row-1{
+
+.row-1 {
     width: 200px;
     height: 513px;
-     display: flex;
-     margin-left: 400px;
-     gap: 20px;
+    display: flex;
+    margin-left: 400px;
+    gap: 20px;
 }
-.row-2{
+
+.row-2 {
     width: 200px;
     height: 530px;
-     display: flex;
-     margin-left: 400px;
-     gap: 20px;
-     margin-top: 20px;
+    display: flex;
+    margin-left: 400px;
+    gap: 20px;
+    margin-top: 20px;
 
 }
-
 
 
 
@@ -279,13 +281,194 @@ background: rgba(19, 19, 24, 0.05);
      margin-left: 400px;
     background-color: #FF5400;
     padding: 30px;
-    font-size: 44px;
+    font-size: 43px;
   
   }
   .input.image.img {
     margin-left: 1500px;
-    margin-right: 1900px;
+    margin-right: px;
   }
 
 
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .nav-container-main {
+        margin-left: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .items-container {
+        display: none;
+
+    }
+
+    .menu-icon {
+        display: block; /* Show the menu icon */
+        /* Add styles for the menu icon if needed */
+    }
+
+    .nav-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-container img {
+        width: 60px;
+        padding-top: 30px;
+        height: 100px;
+    }
+    
+    .nav-container p {
+        color: #131318;
+        font-size: 30px;
+        font-weight: 700;
+    
+    }
+    
+    .nav-container-text {
+        color: #FF5400;
+        font-size: 30px;
+        font-weight: 700;
+    
+    }
+
+
+
+    .river-brige {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .river-and-button {
+        text-align: center;
+        height: 80vh;
+        padding: 10px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .button-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hiil-and-title {
+        margin-top: 150px;
+        display: flex;
+        padding: 10px;
+        gap: 10px;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .hill-img {
+        width: 100%;
+    }
+
+    .deste {
+        font-size: 50px;
+    
+    }
+    
+    .your-destination {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .row, .row-1, .row-2 {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 100%;
+        gap: 20px;
+        margin-bottom: 20px;
+        border-radius: none;
+    }
+    
+
+    .Choose-us-1 img{
+        m
+        border-radius:6px;
+        background-color: bisque;
+        height:25px;
+        font-size:5px;
+    
+        }
+        
+        .Choose-us-2 img{
+            height:25px;
+        }
+        .Choose-us-3 img{
+            height:25px;
+        }
+
+    .Choose-us{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom:0px;
+        text-align: center;
+        margin-left: 5px;
+        
+    }
+    
+        .Choose-us-1{
+            padding-top: 15px;
+            border-radius: 6px;
+            border: 1px solid rgba(251, 181, 99, 0.20);
+            background: rgba(251, 181, 99, 0.05);
+            width: 284px;
+            height: 260px;
+            margin-bottom: 0px;
+    
+        }
+        .Choose-us-2{
+             margin-bottom: 50px;
+            padding-top: 15px;
+            width: 284px;
+            height: 260px;
+            border-radius: 6px;
+            border: 1px solid rgba(41, 206, 246, 0.20);
+            background: rgba(41, 206, 246, 0.05);
+            
+            }
+              .Choose-us-3{
+                margin-top: 10px;
+                width: 284px;
+                height: 260px;
+                padding-top:15px;
+                padding-left:0px;
+                align-items: center;
+                border-radius: 6px;
+                border: 1px solid rgba(233, 68, 68, 0.20);
+                background: rgba(233, 68, 68, 0.05);
+              }
+
+
+
+
+
+
+
+}
 
